@@ -27,6 +27,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Dalston.SR4</spring-cloud.version>
+        <spring-admin.version>1.5.4</spring-admin.version>
     </properties>
 
     <modules>
@@ -34,13 +35,10 @@
         <module>service-provider</module>
         <module>feign-consumer</module>
         <module>zuul-gateway</module>
+        <module>hystrix-turbine</module>
     </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

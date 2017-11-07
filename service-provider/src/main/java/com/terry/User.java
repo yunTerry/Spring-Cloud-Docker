@@ -1,4 +1,4 @@
-package com.teryy;
+package com.terry;
 
 /***
  * *

@@ -1,4 +1,4 @@
-package com.teryy;
+package com.terry;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

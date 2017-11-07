@@ -1,4 +1,4 @@
-package com.teryy;
+package com.terry;
 
 /**
  * Created by Terry on 17/3/7.
