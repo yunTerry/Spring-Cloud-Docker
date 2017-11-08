@@ -1,11 +1,11 @@
 
 # Spring Cloud 容器化微服务
 
-#### Docker容器内运行微服务，Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负载均衡，Hystrix服务容错保护/断路器
+Docker容器内运行微服务，Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负载均衡，Hystrix服务容错保护/断路器
 
 ## Docker compose容器编排
 
-为加快构建速度，先编译出jar文件：
+为了加快构建速度，需要先编译出jar文件，再通过Dockerfile构建：
 ```sh
 mvn clean package
 ```
