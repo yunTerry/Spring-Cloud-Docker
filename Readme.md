@@ -5,7 +5,7 @@ Docker容器内运行微服务，Eureka服务注册发现，Feign服务调用，
 
 ## Docker compose容器编排
 
-为了加快构建速度，需要先编译出jar文件，再通过Dockerfile构建：
+先编译出jar文件：
 ```sh
 mvn clean package
 ```
